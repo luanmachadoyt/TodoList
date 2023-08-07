@@ -1,0 +1,63 @@
+.dark-mode {
+    background-color: #ffffff;
+    transition: .3s;
+    color: #000;
+}
+
+
+
+/* Mudando icone */
+
+.dark-mode header .config .fa-moon {
+    display: block;
+}
+
+.dark-mode header .config .fa-sun {
+    display: none;
+}
+
+.dark-mode header {
+    background-color: white;
+}
+
+.dark-mode main .newList {
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.dark-mode header .config .fa-moon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition: all .2s ease-in-out;
+    color: #000000;
+}
+
+.dark-mode header .config i:hover {
+    background-color: #1a1a1a79;
+    cursor: pointer;
+}
+
+.dark-mode main .newItem input {
+    border: 1px solid #000000;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+.dark-mode ::placeholder {
+    color: #000;
+}
+
+.dark-mode .newItem button {
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode main .itens ul li {
+    color: #000;
+    border: 1px solid #000;
+}

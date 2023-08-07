@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/7c3aef27c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="fazerLogin">
+            <a href="">Fazer Login</a>
+        </div>
+        <div class="logo">
+            <h1>Minhas Tarefas</h1>
+        </div>
+        <div class="config">
+            <i class="fa-solid fa-pencil"></i>
+            <i class="fa-solid fa-sun" onclick="darkMode()"></i>
+            <i class="fa-solid fa-moon" onclick="darkMode()"></i>
+        </div>
+
+        <div class="menu-mobile">
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="newList">
+            <div class="newItem">
+                <input type="text" name="tarefa" id="tarefa" placeholder="Criar uma tarefa">
+                <button id="enviar">Criar</button>
+            </div>
+        </section>
+
+        <section class="itens">
+            <ul class="list-tarefas">
+                
+            </ul>
+        </section>
+
+
+        <main>
+            
+        </main>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

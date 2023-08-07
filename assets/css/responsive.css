@@ -1,0 +1,27 @@
+@media screen and (max-width: 900px){
+    main .newItem {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 530px){
+    main .itens {
+        display: flex;
+        justify-content: center;
+    }
+    header .config, .fazerLogin{
+        display: none;
+    }
+    header .menu-mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .logo h1{
+        font-size: 20px;
+    }
+    main .newList {
+        top: 50px;
+    }
+}

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+/* Cabeçalho */
+body {
+    background: #202124;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1000;
+    background-color: #202124;
+}
+
+header .fazerLogin a {
+    font-size: 14px;
+    padding: 9px 20px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+header .fazerLogin a:hover {
+    background-color: #1a73e8af;
+}
+
+header .config {
+    display: flex;
+    gap: 1rem;
+}
+
+header .config i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transition: all .2s ease-in-out;
+}
+
+header .config i:hover {
+    background-color: #ffffff79;
+    cursor: pointer;
+}
+
+header .config .fa-moon {
+    display: none;
+}
+header .menu-mobile{
+    display: none;
+}
+header .menu-mobile a{
+    font-size: 24px;
+    color: white;
+}
+
+/* Main */
+main .newList {
+    width: 100%;
+    position: fixed;
+    top: 70px;
+    z-index: 1000;
+    background-color: #202124;
+    border-top: 1px solid #fff;
+}
+
+main .newItem {
+    display: flex;
+    padding: 3rem 0 2rem;
+    margin: 0 auto;
+    width: 40%;
+    gap: 10px;
+}
+
+main .newItem input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: #FFF;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .newItem button {
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 11px 24px 24px 11px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+main .newItem button:hover {
+    background: rgba(255, 255, 255, 0.24);
+}
+
+main .itens {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 13rem;
+}
+
+main .itens .list-tarefas {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .itens .list-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 1px solid #FFF;
+    border-radius: 9px;
+    color: white;
+}
+
+main .itens .list-tarefas li .icons {
+    display: flex;
+    gap: 1rem;
+    opacity: 0;
+    padding-left: 20px;
+    transition: opacity .3s ease-in-out;
+}
+
+main .itens .list-tarefas li:hover {
+    cursor: pointer;
+}
+
+main .itens .list-tarefas li:hover .icons {
+    opacity: 1;
+}
+
+/* Tarefa concluida */
+
+
+main .itens .list-tarefas .done {
+    border: 1px solid green;
+}
+
+main .itens .list-tarefas .done p {
+    text-decoration: line-through;
+}
+
+main .itens .list-tarefas .done .concluida {
+    display: block;
+}
+
+.concluida {
+    color: green;
+    padding-right: 10px;
+    display: none;
+}
