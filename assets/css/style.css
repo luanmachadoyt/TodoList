@@ -63,10 +63,12 @@ header .config i:hover {
 header .config .fa-moon {
     display: none;
 }
-header .menu-mobile{
+
+header .menu-mobile {
     display: none;
 }
-header .menu-mobile a{
+
+header .menu-mobile a {
     font-size: 24px;
     color: white;
 }
@@ -177,11 +179,118 @@ main .itens .list-tarefas .done p {
 }
 
 main .itens .list-tarefas .done .concluida {
+    opacity: 1;
+}
+
+/*BOTÃO clear*/
+
+.link-clear {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1a73e8;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    z-index: 1000;  
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    font-size: 16px ;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out ;
+    border: 1px solid #202124;
+}
+.link-clear div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.link-clear p{
+    display: none;
+    font-size: 12px;
+}
+.link-clear:hover {
+    width: 120px;
+    border-radius: 5px;
+}
+.link-clear:hover p{
     display: block;
 }
+/* ======================================================================== */
 
 .concluida {
     color: green;
     padding-right: 10px;
+    opacity: 0;
+}
+
+/* Trocar cor */
+
+.mudarCor{
     display: none;
+}
+
+.botao_cor {
+    position: fixed;
+    width: 330px;
+    height: 420px;
+    right: 72px;
+    top: 80px;
+    background-color: #3b3d42;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    z-index: 10000;  
+    font-size: 16px ;
+    border-radius: 15px;
+    transition: all 100ms ease-in-out ;
+    border: 2px solid #ffffff;
+}
+.botao_cor h1{
+    padding-top: 15px;
+}
+
+.cores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 1rem;
+}
+
+.botao_cor .cores .cor{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid #22335f;
+}
+
+.botao_cor .corPersonalizada{
+    padding-top: 35px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+.corPersonalizada #style1{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.corPersonalizada #style1::-webkit-color-swatch{
+    border-radius: 10px;
+}
+.corPersonalizada #style1::-moz-color-swatch{
+    border-radius: 10px;
 }

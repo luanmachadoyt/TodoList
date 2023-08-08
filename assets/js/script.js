@@ -22,7 +22,8 @@ function novaTarefa() {
             tarefa: input.value,
             concluido: false
         })
-
+          
+        input.value = ""
 
         mostrarTarefas()
     }
@@ -43,6 +44,17 @@ function mostrarTarefas() {
                 <i class="fa-solid fa-trash" onclick="deletarItem(${index})"></i>
             </div>
         </li> 
+        
+        <section class="clear_button">
+            <div class="botao_clear" title="Limpar Tudo">
+                <a class="link-clear" onclick="deletarAll(${index})">
+                <div>
+                    <i class="fa-solid fa-trash"></i>
+                    <p>Limpar tudo</p>
+                </div>
+                </a>
+            </div>
+        </section>
         `
     })
 
@@ -65,6 +77,12 @@ function deletarItem(index) {
     mostrarTarefas()
 }
 
+function deletarAll(index) {
+    MinhasTarefas.splice(MinhasTarefas  )
+
+    mostrarTarefas()
+}
+
 
 function recarregarTarefas() {
     const tarefasLocal = localStorage.getItem('lista')
@@ -76,5 +94,14 @@ function recarregarTarefas() {
 }
 
 
+function openColors(){
+    const PainelCores = document.querySelector(".mudarCor")
+
+    if(PainelCores.style.display === "none"){
+        PainelCores.style.display = "block"
+    } else {
+        PainelCores.style.display = "none"
+    }
+}
 recarregarTarefas()
 btn.addEventListener("click", novaTarefa)
