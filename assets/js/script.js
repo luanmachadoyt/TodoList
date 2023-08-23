@@ -23,8 +23,7 @@ function novaTarefa() {
             concluido: false
         })
           
-        input.value = ""
-
+        input.value = "" 
         mostrarTarefas()
     }
 

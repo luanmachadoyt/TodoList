@@ -89,16 +89,183 @@ function corBrown(){
 brown.addEventListener("click", corBrown)
 
 // =====================================================================
-// =============================== BROWN ================================
+// =============================== AQUA ================================
 // =====================================================================
 
 const aqua = document.querySelector(".aqua")
 
 function coraqua(){
-    $("body").css({"background-color": "aqua"})
-    $("header").css({"background-color": "aqua"})
-    $(".newList").css({"background-color": "aqua"})
+    $("body").css({"background-color": "rgb(3, 197, 197)"})
+    $("header").css({"background-color": "rgb(3, 197, 197)"})
+    $(".newList").css({"background-color": "rgb(3, 197, 197)"})
 }
 
-
 aqua.addEventListener("click", coraqua)
+
+// =====================================================================
+// =============================== blueviolet ================================
+// =====================================================================
+
+const blueviolet = document.querySelector(".blueviolet")
+
+function corblueviolet(){
+    $("body").css({"background-color": "blueviolet"})
+    $("header").css({"background-color": "blueviolet"})
+    $(".newList").css({"background-color": "blueviolet"})
+}
+
+blueviolet.addEventListener("click", corblueviolet)
+
+// =====================================================================
+// =============================== cadetblue ================================
+// =====================================================================
+
+const cadetblue = document.querySelector(".cadetblue")
+
+function corcadetblue(){
+    $("body").css({"background-color": "cadetblue"})
+    $("header").css({"background-color": "cadetblue"})
+    $(".newList").css({"background-color": "cadetblue"})
+}
+
+cadetblue.addEventListener("click", corcadetblue)
+
+// =====================================================================
+// =============================== chartreuse ================================
+// =====================================================================
+
+const chartreuse = document.querySelector(".chartreuse")
+
+function corchartreuse(){
+    $("body").css({"background-color": "rgb(51, 95, 7)"})
+    $("header").css({"background-color": "rgb(51, 95, 7)"})
+    $(".newList").css({"background-color": "rgb(51, 95, 7)"})
+}
+
+chartreuse.addEventListener("click", corchartreuse)
+
+// =====================================================================
+// =============================== chocolate ================================
+// =====================================================================
+
+const chocolate = document.querySelector(".chocolate")
+
+function corchocolate(){
+    $("body").css({"background-color": "chocolate"})
+    $("header").css({"background-color": "chocolate"})
+    $(".newList").css({"background-color": "chocolate"})
+}
+
+chocolate.addEventListener("click", corchocolate)
+
+// =====================================================================
+// =============================== coral ================================
+// =====================================================================
+
+const coral = document.querySelector(".coral")
+
+function corcoral(){
+    $("body").css({"background-color": "coral"})
+    $("header").css({"background-color": "coral"})
+    $(".newList").css({"background-color": "coral"})
+}
+
+coral.addEventListener("click", corcoral)
+
+// =====================================================================
+// =============================== cornflowerblue ================================
+// =====================================================================
+
+const cornflowerblue = document.querySelector(".cornflowerblue")
+
+function corcornflowerblue(){
+    $("body").css({"background-color": "cornflowerblue"})
+    $("header").css({"background-color": "cornflowerblue"})
+    $(".newList").css({"background-color": "cornflowerblue"})
+}
+
+cornflowerblue.addEventListener("click", corcornflowerblue)
+
+// =====================================================================
+// =============================== crimson ================================
+// =====================================================================
+
+const crimson = document.querySelector(".crimson")
+
+function corcrimson(){
+    $("body").css({"background-color": "crimson"})
+    $("header").css({"background-color": "crimson"})
+    $(".newList").css({"background-color": "crimson"})
+}
+
+crimson.addEventListener("click", corcrimson)
+
+// =====================================================================
+// =============================== darkcyan ================================
+// =====================================================================
+
+const darkcyan = document.querySelector(".darkcyan")
+
+function cordarkcyan(){
+    $("body").css({"background-color": "darkcyan"})
+    $("header").css({"background-color": "darkcyan"})
+    $(".newList").css({"background-color": "darkcyan"})
+}
+
+darkcyan.addEventListener("click", cordarkcyan)
+
+// =====================================================================
+// =============================== darkolivegreen ================================
+// =====================================================================
+
+const darkolivegreen = document.querySelector(".darkolivegreen")
+
+function cordarkolivegreen(){
+    $("body").css({"background-color": "darkolivegreen"})
+    $("header").css({"background-color": "darkolivegreen"})
+    $(".newList").css({"background-color": "darkolivegreen"})
+}
+
+darkolivegreen.addEventListener("click", cordarkolivegreen)
+
+// =====================================================================
+// =============================== dodgerblue ================================
+// =====================================================================
+
+const dodgerblue = document.querySelector(".dodgerblue")
+
+function cordodgerblue(){
+    $("body").css({"background-color": "dodgerblue"})
+    $("header").css({"background-color": "dodgerblue"})
+    $(".newList").css({"background-color": "dodgerblue"})
+}
+
+dodgerblue.addEventListener("click", cordodgerblue)
+
+// =====================================================================
+// =============================== goldenrod ================================
+// =====================================================================
+
+const goldenrod = document.querySelector(".goldenrod")
+
+function corgoldenrod(){
+    $("body").css({"background-color": "goldenrod"})
+    $("header").css({"background-color": "goldenrod"})
+    $(".newList").css({"background-color": "goldenrod"})
+}
+
+goldenrod.addEventListener("click", corgoldenrod)
+
+// =====================================================================
+// =============================== mediumorchid ================================
+// =====================================================================
+
+const mediumorchid = document.querySelector(".mediumorchid")
+
+function cormediumorchid(){
+    $("body").css({"background-color": "mediumorchid"})
+    $("header").css({"background-color": "mediumorchid"})
+    $(".newList").css({"background-color": "mediumorchid"})
+}
+
+mediumorchid.addEventListener("click", cormediumorchid)

@@ -169,9 +169,8 @@ main .itens .list-tarefas li:hover .icons {
 
 /* Tarefa concluida */
 
-
 main .itens .list-tarefas .done {
-    border: 1px solid green;
+    border: 2px solid green;
 }
 
 main .itens .list-tarefas .done p {
