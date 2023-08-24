@@ -16,14 +16,18 @@ let MinhasTarefas = []
 
 function novaTarefa() {
     if (input.value == "") {
-        alert("Digite uma tarefa!")
+        Swal.fire({
+            icon: 'error',
+            title: 'Alerta',
+            text: 'Você precisa digitar uma tarefa!'
+        })
     } else {
         MinhasTarefas.push({
             tarefa: input.value,
             concluido: false
         })
-          
-        input.value = "" 
+
+        input.value = ""
         mostrarTarefas()
     }
 
@@ -77,7 +81,7 @@ function deletarItem(index) {
 }
 
 function deletarAll(index) {
-    MinhasTarefas.splice(MinhasTarefas  )
+    MinhasTarefas.splice(MinhasTarefas)
 
     mostrarTarefas()
 }
@@ -93,10 +97,10 @@ function recarregarTarefas() {
 }
 
 
-function openColors(){
+function openColors() {
     const PainelCores = document.querySelector(".mudarCor")
 
-    if(PainelCores.style.display === "none"){
+    if (PainelCores.style.display === "none") {
         PainelCores.style.display = "block"
     } else {
         PainelCores.style.display = "none"

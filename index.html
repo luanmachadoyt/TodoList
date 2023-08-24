@@ -13,12 +13,13 @@
     <script src="https://kit.fontawesome.com/7c3aef27c1.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
     <header>
         <div class="fazerLogin">
-            <a href="">Fazer Login</a>
+            <a href="login.html">Fazer Login</a>
         </div>
         <div class="logo">
             <h1>Minhas Tarefas</h1>
@@ -41,7 +42,7 @@
                 <h1>Mudar Cor</h1>
                 <div class="cores">
                     <div class="cor black" title="Black" style="background-color: black;"></div>
-                    <div class="cor white" title="White" style="background-color: white;"></div>
+                    <div class="cor Marron" title="Marron" style="background-color: #221a1a;"></div>
                     <div class="cor green" title="Green" style="background-color: green;"></div>
                     <div class="cor yellow" title="Yellow" style="background-color: yellow;"></div>
                     <div class="cor blue" title="Blue" style="background-color: blue;"></div>
@@ -53,10 +54,12 @@
                     <div class="cor chartreuse" title="chartreuse" style="background-color: rgb(51, 95, 7)"></div>
                     <div class="cor chocolate" title="chocolate" style="background-color: chocolate"></div>
                     <div class="cor coral" title="coral" style="background-color: coral"></div>
-                    <div class="cor cornflowerblue" title="cornflowerblue" style="background-color: cornflowerblue"></div>
+                    <div class="cor cornflowerblue" title="cornflowerblue" style="background-color: cornflowerblue">
+                    </div>
                     <div class="cor crimson" title="crimson" style="background-color: crimson"></div>
                     <div class="cor darkcyan" title="darkcyan" style="background-color: darkcyan;"></div>
-                    <div class="cor darkolivegreen" title="darkolivegreen" style="background-color: darkolivegreen"></div>
+                    <div class="cor darkolivegreen" title="darkolivegreen" style="background-color: darkolivegreen">
+                    </div>
                     <div class="cor dodgerblue" title="dodgerblue" style="background-color: dodgerblue"></div>
                     <div class="cor goldenrod" title="goldenrod" style="background-color: goldenrod"></div>
                     <div class="cor mediumorchid" title="mediumorchid" style="background-color: mediumorchid"></div>
@@ -69,7 +72,7 @@
         </section>
         <section class="newList">
             <div class="newItem">
-                <input type="text" name="tarefa" id="tarefa" placeholder="Criar uma tarefa" maxlength="50">
+                <input type="text" name="tarefa" id="tarefa" placeholder="Criar uma tarefa" maxlength="50" autocomplete="off">
                 <button id="enviar">Criar</button>
             </div>
         </section>

@@ -265,7 +265,6 @@ main .itens .list-tarefas .done .concluida {
     height: 45px;
     border-radius: 50px;
     cursor: pointer;
-    border: 2px solid #22335f;
 }
 
 .botao_cor .corPersonalizada{
